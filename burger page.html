@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gourmet Catering</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 3px;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  color: white;
+}
+.header-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top navbar">
+  <div class="w3-bar w3-wide">
+    <a href="#home" class="w3-bar-item w3-button">Gourmet Catering</a>
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="https://images.unsplash.com/photo-1516865131505-4dabf2efc692?q=80&w=1932&auto=format&fit=crop" width="1600" height="800">
+  <div class="header-overlay">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-content w3-padding-64" id="about">
+  <h1 class="w3-center">About Us</h1>
+  <p class="w3-large w3-center">We bring fine dining to your events, creating unforgettable culinary experiences.</p>
+</div>
+
+<hr>
+
+<!-- Menu Section -->
+<div class="w3-content w3-padding-64" id="menu">
+  <h1 class="w3-center">Our Menu</h1>
+  <div class="w3-row">
+    <div class="w3-col l6 w3-padding-large">
+      <h4>Bread Basket</h4>
+      <p class="w3-text-grey">Freshly baked bread and muffins - $5.50</p>
+      <h4>Belgian Waffle</h4>
+      <p class="w3-text-grey">Vanilla flavored waffle with malted flour - $7.50</p>
+    </div>
+    <div class="w3-col l6 w3-padding-large">
+      <img src="https://plus.unsplash.com/premium_photo-1671403964040-3fa56d33f44b?q=80&w=1901&auto=format&fit=crop" class="w3-round w3-image w3-opacity-min" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- Contact Section -->
+<div class="w3-content w3-padding-64" id="contact">
+  <h1>Contact Us</h1>
+  <p class="w3-large">We cater to all events. Get in touch with us today!</p>
+  <form>
+    <input class="w3-input w3-padding-16" type="text" placeholder="Your Name" required>
+    <input class="w3-input w3-padding-16" type="email" placeholder="Your Email" required>
+    <textarea class="w3-input w3-padding-16" placeholder="Your Message" required></textarea>
+    <button class="w3-button w3-section">Send Message</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
